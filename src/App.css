@@ -1,0 +1,109 @@
+/*23BCE0947_L7_MP_PRANESH GOPAL*/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+form input, form select {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.plan-to-read {
+  background-color: #e3f2fd; /* Light Blue */
+}
+
+.reading {
+  background-color: #fff3e0; /* Light Orange */
+}
+
+.on-hold {
+  background-color: #fce4ec; /* Light Pink */
+}
+
+.dropped {
+  background-color: #ffebee; /* Light Red */
+}
+
+.completed {
+  background-color: #e8f5e9; /* Light Green */
+}
+
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+span {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.summary {
+  background: #f8f9fa;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.summary p {
+  margin: 5px 0;
+}
+
+
+
+
